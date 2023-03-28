@@ -1,0 +1,16 @@
+using namespace std;
+#include <iostream>
+int main()
+{
+	int l,b,r,areacircle,arearectangle;
+	cout<<"enter the radius:";
+	cin>>r;
+	areacircle=3.14*r*r;
+	cout<<"enter the length:";
+	cin>>l;
+	cout<<"enter the breadth:";
+	cin>>b;
+	arearectangle=l*b;
+	cout<<"area of circle:"<<areacircle<<endl;
+	cout<<"area of rectangle:"<<arearectangle;
+}
