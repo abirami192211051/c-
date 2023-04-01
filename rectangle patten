@@ -6,7 +6,7 @@ void print_rec(int h, int w){
       for (int j=0; j<w; j++){
          if (i == 0 || i == h-1 ||
          j== 0 || j == w-1)
-            cout << "@";
+            cout << "$";
          else
             cout << " ";
       }
